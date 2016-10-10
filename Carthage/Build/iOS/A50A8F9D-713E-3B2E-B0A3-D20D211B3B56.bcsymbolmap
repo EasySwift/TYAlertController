@@ -1,0 +1,436 @@
+BCSymbolMap Version: 2.0
++[UIView(TYAlertView) createViewFromNibName:]
++[UIView(TYAlertView) createViewFromNib]
+-[UIView(TYAlertView) viewController]
+-[UIView(TYAlertView) showInWindow]
+-[UIView(TYAlertView) showInWindowWithBackgoundTapDismissEnable:]
+-[UIView(TYAlertView) showInWindowWithOriginY:]
+-[UIView(TYAlertView) showInWindowWithOriginY:backgoundTapDismissEnable:]
+-[UIView(TYAlertView) hideInWindow]
+-[UIView(TYAlertView) showInController:]
+-[UIView(TYAlertView) showInController:preferredStyle:]
+-[UIView(TYAlertView) showInController:preferredStyle:backgoundTapDismissEnable:]
+-[UIView(TYAlertView) showInController:preferredStyle:transitionAnimation:]
+-[UIView(TYAlertView) showInController:preferredStyle:transitionAnimation:backgoundTapDismissEnable:]
+-[UIView(TYAlertView) hideInController]
+-[UIView(TYAlertView) isShowInAlertController]
+-[UIView(TYAlertView) isShowInWindow]
+-[UIView(TYAlertView) hideView]
+Apple LLVM version 8.0.0 (clang-800.0.38)
+/Users/yxj/Desktop/MyPublicProject/TYAlertController/TYAlertControllerDemo/TYAlertController/UIView+TYAlertView.m
+/Users/yxj/Desktop/MyPublicProject/TYAlertController
+-[UIView(TYAutoLayout) addConstraintToView:edageInset:]
+-[UIView(TYAutoLayout) addConstarintWithView:topView:leftView:bottomView:rightView:edageInset:]
+-[UIView(TYAutoLayout) addConstarintWithLeftView:toRightView:constarint:]
+-[UIView(TYAutoLayout) addConstarintWithTopView:toBottomView:constarint:]
+-[UIView(TYAutoLayout) addConstarintWidth:height:]
+-[UIView(TYAutoLayout) addConstarintEqualWithView:widthToView:heightToView:]
+-[UIView(TYAutoLayout) addConstraintCenterXToView:CenterYToView:]
+-[UIView(TYAutoLayout) addConstraintCenterYToView:constant:]
+-[UIView(TYAutoLayout) removeConstraintWithAttribte:]
+-[UIView(TYAutoLayout) removeConstraintWithView:attribte:]
+-[UIView(TYAutoLayout) removeAllConstraints]
+/Users/yxj/Desktop/MyPublicProject/TYAlertController/TYAlertControllerDemo/TYAlertController/UIView+TYAutoLayout.m
++[TYAlertAction actionWithTitle:style:handler:]
+-[TYAlertAction initWithTitle:style:handler:]
+-[TYAlertAction copyWithZone:]
+-[TYAlertAction title]
+-[TYAlertAction setTitle:]
+-[TYAlertAction style]
+-[TYAlertAction setStyle:]
+-[TYAlertAction isEnabled]
+-[TYAlertAction setEnabled:]
+-[TYAlertAction handler]
+-[TYAlertAction setHandler:]
+-[TYAlertAction .cxx_destruct]
+-[TYAlertView initWithFrame:]
+-[TYAlertView initWithTitle:message:]
++[TYAlertView alertViewWithTitle:message:]
+-[TYAlertView configureProperty]
+-[TYAlertView buttonBgColorWithStyle:]
+-[TYAlertView addContentViews]
+-[TYAlertView addTextLabels]
+-[TYAlertView didMoveToSuperview]
+-[TYAlertView addAction:]
+-[TYAlertView addTextFieldWithConfigurationHandler:]
+-[TYAlertView textFieldArray]
+-[TYAlertView layoutContentViews]
+-[TYAlertView layoutTextLabels]
+-[TYAlertView layoutButtons]
+-[TYAlertView layouttextFields]
+-[TYAlertView actionButtonClicked:]
+-[TYAlertView titleLable]
+-[TYAlertView setTitleLable:]
+-[TYAlertView messageLabel]
+-[TYAlertView setMessageLabel:]
+-[TYAlertView alertViewWidth]
+-[TYAlertView setAlertViewWidth:]
+-[TYAlertView contentViewSpace]
+-[TYAlertView setContentViewSpace:]
+-[TYAlertView textLabelSpace]
+-[TYAlertView setTextLabelSpace:]
+-[TYAlertView textLabelContentViewEdge]
+-[TYAlertView setTextLabelContentViewEdge:]
+-[TYAlertView buttonHeight]
+-[TYAlertView setButtonHeight:]
+-[TYAlertView buttonSpace]
+-[TYAlertView setButtonSpace:]
+-[TYAlertView buttonContentViewEdge]
+-[TYAlertView setButtonContentViewEdge:]
+-[TYAlertView buttonCornerRadius]
+-[TYAlertView setButtonCornerRadius:]
+-[TYAlertView buttonFont]
+-[TYAlertView setButtonFont:]
+-[TYAlertView buttonDefaultBgColor]
+-[TYAlertView setButtonDefaultBgColor:]
+-[TYAlertView buttonCancelBgColor]
+-[TYAlertView setButtonCancelBgColor:]
+-[TYAlertView buttonDestructiveBgColor]
+-[TYAlertView setButtonDestructiveBgColor:]
+-[TYAlertView textFieldBorderColor]
+-[TYAlertView setTextFieldBorderColor:]
+-[TYAlertView textFieldBackgroudColor]
+-[TYAlertView setTextFieldBackgroudColor:]
+-[TYAlertView textFieldFont]
+-[TYAlertView setTextFieldFont:]
+-[TYAlertView textFieldHeight]
+-[TYAlertView setTextFieldHeight:]
+-[TYAlertView textFieldEdge]
+-[TYAlertView setTextFieldEdge:]
+-[TYAlertView textFieldorderWidth]
+-[TYAlertView setTextFieldorderWidth:]
+-[TYAlertView textFieldContentViewEdge]
+-[TYAlertView setTextFieldContentViewEdge:]
+-[TYAlertView textContentView]
+-[TYAlertView setTextContentView:]
+-[TYAlertView textFieldContentView]
+-[TYAlertView setTextFieldContentView:]
+-[TYAlertView textFieldTopConstraint]
+-[TYAlertView setTextFieldTopConstraint:]
+-[TYAlertView textFields]
+-[TYAlertView setTextFields:]
+-[TYAlertView textFieldSeparateViews]
+-[TYAlertView setTextFieldSeparateViews:]
+-[TYAlertView buttonContentView]
+-[TYAlertView setButtonContentView:]
+-[TYAlertView buttonTopConstraint]
+-[TYAlertView setButtonTopConstraint:]
+-[TYAlertView buttons]
+-[TYAlertView setButtons:]
+-[TYAlertView actions]
+-[TYAlertView setActions:]
+-[TYAlertView .cxx_destruct]
+_OBJC_IVAR_$_TYAlertAction._title
+_OBJC_IVAR_$_TYAlertAction._style
+_OBJC_IVAR_$_TYAlertAction._handler
+_OBJC_IVAR_$_TYAlertAction._enabled
+l_OBJC_PROTOCOL_$_NSCopying
+l_OBJC_LABEL_PROTOCOL_$_NSCopying
+_OBJC_IVAR_$_TYAlertView._titleLable
+_OBJC_IVAR_$_TYAlertView._messageLabel
+_OBJC_IVAR_$_TYAlertView._alertViewWidth
+_OBJC_IVAR_$_TYAlertView._contentViewSpace
+_OBJC_IVAR_$_TYAlertView._textLabelSpace
+_OBJC_IVAR_$_TYAlertView._textLabelContentViewEdge
+_OBJC_IVAR_$_TYAlertView._buttonHeight
+_OBJC_IVAR_$_TYAlertView._buttonSpace
+_OBJC_IVAR_$_TYAlertView._buttonContentViewEdge
+_OBJC_IVAR_$_TYAlertView._buttonCornerRadius
+_OBJC_IVAR_$_TYAlertView._buttonFont
+_OBJC_IVAR_$_TYAlertView._buttonDefaultBgColor
+_OBJC_IVAR_$_TYAlertView._buttonCancelBgColor
+_OBJC_IVAR_$_TYAlertView._buttonDestructiveBgColor
+_OBJC_IVAR_$_TYAlertView._textFieldHeight
+_OBJC_IVAR_$_TYAlertView._textFieldEdge
+_OBJC_IVAR_$_TYAlertView._textFieldorderWidth
+_OBJC_IVAR_$_TYAlertView._textFieldContentViewEdge
+_OBJC_IVAR_$_TYAlertView._textFieldBorderColor
+_OBJC_IVAR_$_TYAlertView._textFieldBackgroudColor
+_OBJC_IVAR_$_TYAlertView._textFieldFont
+_OBJC_IVAR_$_TYAlertView._buttons
+_OBJC_IVAR_$_TYAlertView._actions
+_OBJC_IVAR_$_TYAlertView._textContentView
+_OBJC_IVAR_$_TYAlertView._textFieldContentView
+_OBJC_IVAR_$_TYAlertView._buttonContentView
+_OBJC_IVAR_$_TYAlertView._textFields
+_OBJC_IVAR_$_TYAlertView._textFieldSeparateViews
+_OBJC_IVAR_$_TYAlertView._textFieldTopConstraint
+_OBJC_IVAR_$_TYAlertView._buttonTopConstraint
+/Users/yxj/Desktop/MyPublicProject/TYAlertController/TYAlertControllerDemo/TYAlertController/TYAlertView.m
+/Users/yxj/Desktop/MyPublicProject/TYAlertController/TYAlertControllerDemo/TYAlertController/TYAlertView.h
+-[TYBaseAnimation initWithIsPresenting:]
++[TYBaseAnimation alertAnimationIsPresenting:]
++[TYBaseAnimation alertAnimationIsPresenting:preferredStyle:]
+-[TYBaseAnimation transitionDuration:]
+-[TYBaseAnimation animateTransition:]
+-[TYBaseAnimation presentAnimateTransition:]
+-[TYBaseAnimation dismissAnimateTransition:]
+-[TYBaseAnimation isPresenting]
+-[TYBaseAnimation setIsPresenting:]
+_OBJC_IVAR_$_TYBaseAnimation._isPresenting
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_UIViewControllerAnimatedTransitioning
+l_OBJC_LABEL_PROTOCOL_$_UIViewControllerAnimatedTransitioning
+/Users/yxj/Desktop/MyPublicProject/TYAlertController/TYAlertControllerDemo/TYAlertController/TYBaseAnimation.m
+/Users/yxj/Desktop/MyPublicProject/TYAlertController/TYAlertControllerDemo/TYAlertController/TYBaseAnimation.h
+-[TYAlertFadeAnimation transitionDuration:]
+-[TYAlertFadeAnimation presentAnimateTransition:]
+___49-[TYAlertFadeAnimation presentAnimateTransition:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___49-[TYAlertFadeAnimation presentAnimateTransition:]_block_invoke.21
+___49-[TYAlertFadeAnimation presentAnimateTransition:]_block_invoke_2
+___copy_helper_block_.22
+___destroy_helper_block_.23
+___49-[TYAlertFadeAnimation presentAnimateTransition:]_block_invoke.25
+___copy_helper_block_.28
+___destroy_helper_block_.29
+___copy_helper_block_.34
+___destroy_helper_block_.35
+-[TYAlertFadeAnimation dismissAnimateTransition:]
+___49-[TYAlertFadeAnimation dismissAnimateTransition:]_block_invoke
+___copy_helper_block_.37
+___destroy_helper_block_.38
+___49-[TYAlertFadeAnimation dismissAnimateTransition:]_block_invoke.40
+___copy_helper_block_.41
+___destroy_helper_block_.42
+___block_descriptor_tmp
+___block_descriptor_tmp.24
+___block_descriptor_tmp.31
+___block_descriptor_tmp.36
+___block_descriptor_tmp.39
+___block_descriptor_tmp.43
+/Users/yxj/Desktop/MyPublicProject/TYAlertController/TYAlertControllerDemo/TYAlertController/TYAlertFadeAnimation.m
+__destroy_helper_block_
+__copy_helper_block_
+__49-[TYAlertFadeAnimation dismissAnimateTransition:]_block_invoke.40
+__49-[TYAlertFadeAnimation dismissAnimateTransition:]_block_invoke
+__49-[TYAlertFadeAnimation presentAnimateTransition:]_block_invoke.25
+__49-[TYAlertFadeAnimation presentAnimateTransition:]_block_invoke_2
+__49-[TYAlertFadeAnimation presentAnimateTransition:]_block_invoke.21
+__49-[TYAlertFadeAnimation presentAnimateTransition:]_block_invoke
+-[TYAlertScaleFadeAnimation transitionDuration:]
+-[TYAlertScaleFadeAnimation presentAnimateTransition:]
+___54-[TYAlertScaleFadeAnimation presentAnimateTransition:]_block_invoke
+___54-[TYAlertScaleFadeAnimation presentAnimateTransition:]_block_invoke.21
+___copy_helper_block_.24
+___destroy_helper_block_.25
+-[TYAlertScaleFadeAnimation dismissAnimateTransition:]
+___54-[TYAlertScaleFadeAnimation dismissAnimateTransition:]_block_invoke
+___copy_helper_block_.30
+___destroy_helper_block_.31
+___54-[TYAlertScaleFadeAnimation dismissAnimateTransition:]_block_invoke.33
+___block_descriptor_tmp.27
+___block_descriptor_tmp.32
+/Users/yxj/Desktop/MyPublicProject/TYAlertController/TYAlertControllerDemo/TYAlertController/TYAlertScaleFadeAnimation.m
+__54-[TYAlertScaleFadeAnimation dismissAnimateTransition:]_block_invoke.33
+__54-[TYAlertScaleFadeAnimation dismissAnimateTransition:]_block_invoke
+__54-[TYAlertScaleFadeAnimation presentAnimateTransition:]_block_invoke.21
+__54-[TYAlertScaleFadeAnimation presentAnimateTransition:]_block_invoke
+-[TYAlertDropDownAnimation transitionDuration:]
+-[TYAlertDropDownAnimation presentAnimateTransition:]
+___53-[TYAlertDropDownAnimation presentAnimateTransition:]_block_invoke
+___53-[TYAlertDropDownAnimation presentAnimateTransition:]_block_invoke.22
+___copy_helper_block_.25
+___destroy_helper_block_.26
+-[TYAlertDropDownAnimation dismissAnimateTransition:]
+___53-[TYAlertDropDownAnimation dismissAnimateTransition:]_block_invoke
+___copy_helper_block_.31
+___destroy_helper_block_.32
+___53-[TYAlertDropDownAnimation dismissAnimateTransition:]_block_invoke.34
+___copy_helper_block_.35
+___destroy_helper_block_.36
+___block_descriptor_tmp.28
+___block_descriptor_tmp.33
+___block_descriptor_tmp.37
+/Users/yxj/Desktop/MyPublicProject/TYAlertController/TYAlertControllerDemo/TYAlertController/TYAlertDropDownAnimation.m
+__53-[TYAlertDropDownAnimation dismissAnimateTransition:]_block_invoke.34
+__53-[TYAlertDropDownAnimation dismissAnimateTransition:]_block_invoke
+__53-[TYAlertDropDownAnimation presentAnimateTransition:]_block_invoke.22
+__53-[TYAlertDropDownAnimation presentAnimateTransition:]_block_invoke
+-[TYAlertController init]
+-[TYAlertController initWithCoder:]
+-[TYAlertController initWithNibName:bundle:]
+-[TYAlertController initWithAlertView:preferredStyle:transitionAnimation:transitionAnimationClass:]
++[TYAlertController alertControllerWithAlertView:]
++[TYAlertController alertControllerWithAlertView:preferredStyle:]
++[TYAlertController alertControllerWithAlertView:preferredStyle:transitionAnimation:]
++[TYAlertController alertControllerWithAlertView:preferredStyle:transitionAnimationClass:]
+-[TYAlertController viewDidLoad]
+-[TYAlertController viewWillAppear:]
+-[TYAlertController viewDidAppear:]
+-[TYAlertController viewWillDisappear:]
+-[TYAlertController viewDidDisappear:]
+-[TYAlertController addBackgroundView]
+-[TYAlertController setBackgroundView:]
+___39-[TYAlertController setBackgroundView:]_block_invoke
+___39-[TYAlertController setBackgroundView:]_block_invoke.55
+___copy_helper_block_.58
+___destroy_helper_block_.59
+-[TYAlertController addSingleTapGesture]
+-[TYAlertController setBackgoundTapDismissEnable:]
+-[TYAlertController configureController]
+-[TYAlertController configureAlertView]
+-[TYAlertController configureAlertViewWidth]
+-[TYAlertController layoutAlertStyleView]
+-[TYAlertController layoutActionSheetStyleView]
+-[TYAlertController dismissViewControllerAnimated:]
+-[TYAlertController singleTap:]
+-[TYAlertController keyboardWillShow:]
+___38-[TYAlertController keyboardWillShow:]_block_invoke
+___copy_helper_block_.128
+___destroy_helper_block_.129
+-[TYAlertController keyboardWillHide:]
+___38-[TYAlertController keyboardWillHide:]_block_invoke
+___copy_helper_block_.133
+___destroy_helper_block_.134
+-[TYAlertController didReceiveMemoryWarning]
+-[TYAlertController dealloc]
+-[TYAlertController alertView]
+-[TYAlertController setAlertView:]
+-[TYAlertController backgroundColor]
+-[TYAlertController setBackgroundColor:]
+-[TYAlertController backgroundView]
+-[TYAlertController preferredStyle]
+-[TYAlertController setPreferredStyle:]
+-[TYAlertController transitionAnimation]
+-[TYAlertController setTransitionAnimation:]
+-[TYAlertController transitionAnimationClass]
+-[TYAlertController setTransitionAnimationClass:]
+-[TYAlertController backgoundTapDismissEnable]
+-[TYAlertController alertViewOriginY]
+-[TYAlertController setAlertViewOriginY:]
+-[TYAlertController alertStyleEdging]
+-[TYAlertController setAlertStyleEdging:]
+-[TYAlertController actionSheetStyleEdging]
+-[TYAlertController setActionSheetStyleEdging:]
+-[TYAlertController viewWillShowHandler]
+-[TYAlertController setViewWillShowHandler:]
+-[TYAlertController viewDidShowHandler]
+-[TYAlertController setViewDidShowHandler:]
+-[TYAlertController viewWillHideHandler]
+-[TYAlertController setViewWillHideHandler:]
+-[TYAlertController viewDidHideHandler]
+-[TYAlertController setViewDidHideHandler:]
+-[TYAlertController dismissComplete]
+-[TYAlertController setDismissComplete:]
+-[TYAlertController singleTap]
+-[TYAlertController setSingleTap:]
+-[TYAlertController alertViewCenterYConstraint]
+-[TYAlertController setAlertViewCenterYConstraint:]
+-[TYAlertController alertViewCenterYOffset]
+-[TYAlertController setAlertViewCenterYOffset:]
+-[TYAlertController .cxx_destruct]
+_OBJC_IVAR_$_TYAlertController._alertView
+_OBJC_IVAR_$_TYAlertController._preferredStyle
+_OBJC_IVAR_$_TYAlertController._transitionAnimation
+_OBJC_IVAR_$_TYAlertController._transitionAnimationClass
+_OBJC_IVAR_$_TYAlertController._viewWillShowHandler
+_OBJC_IVAR_$_TYAlertController._viewDidShowHandler
+_OBJC_IVAR_$_TYAlertController._viewWillHideHandler
+_OBJC_IVAR_$_TYAlertController._viewDidHideHandler
+_OBJC_IVAR_$_TYAlertController._backgroundView
+_OBJC_IVAR_$_TYAlertController._backgroundColor
+___block_descriptor_tmp.61
+_OBJC_IVAR_$_TYAlertController._backgoundTapDismissEnable
+_OBJC_IVAR_$_TYAlertController._singleTap
+_OBJC_IVAR_$_TYAlertController._alertStyleEdging
+_OBJC_IVAR_$_TYAlertController._actionSheetStyleEdging
+_OBJC_IVAR_$_TYAlertController._alertViewCenterYConstraint
+_OBJC_IVAR_$_TYAlertController._alertViewOriginY
+_OBJC_IVAR_$_TYAlertController._alertViewCenterYOffset
+___block_descriptor_tmp.130
+___block_descriptor_tmp.135
+_OBJC_IVAR_$_TYAlertController._dismissComplete
+/Users/yxj/Desktop/MyPublicProject/TYAlertController/TYAlertControllerDemo/TYAlertController/TYAlertController.m
+/Users/yxj/Desktop/MyPublicProject/TYAlertController/TYAlertControllerDemo/TYAlertController/TYAlertController.h
+__38-[TYAlertController keyboardWillHide:]_block_invoke
+__38-[TYAlertController keyboardWillShow:]_block_invoke
+__CGSizeEqualToSize
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+__39-[TYAlertController setBackgroundView:]_block_invoke.55
+__39-[TYAlertController setBackgroundView:]_block_invoke
+-[TYAlertController(TransitionAnimate) animationControllerForPresentedController:presentingController:sourceController:]
+-[TYAlertController(TransitionAnimate) animationControllerForDismissedController:]
+l_OBJC_PROTOCOL_$_UIViewControllerTransitioningDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIViewControllerTransitioningDelegate
+/Users/yxj/Desktop/MyPublicProject/TYAlertController/TYAlertControllerDemo/TYAlertController/TYAlertController+TransitionAnimate.m
+-[TYShowAlertView initWithFrame:]
+-[TYShowAlertView initWithAlertView:]
++[TYShowAlertView alertViewWithView:]
++[TYShowAlertView showAlertViewWithView:]
++[TYShowAlertView showAlertViewWithView:backgoundTapDismissEnable:]
++[TYShowAlertView showAlertViewWithView:originY:]
++[TYShowAlertView showAlertViewWithView:originY:backgoundTapDismissEnable:]
+-[TYShowAlertView addBackgroundView]
+-[TYShowAlertView setBackgroundView:]
+-[TYShowAlertView setBackgoundTapDismissEnable:]
+-[TYShowAlertView didMoveToSuperview]
+-[TYShowAlertView layoutAlertView]
+-[TYShowAlertView addSingleGesture]
+-[TYShowAlertView singleTap:]
+-[TYShowAlertView show]
+___23-[TYShowAlertView show]_block_invoke
+-[TYShowAlertView hide]
+___23-[TYShowAlertView hide]_block_invoke
+___copy_helper_block_.90
+___destroy_helper_block_.91
+___23-[TYShowAlertView hide]_block_invoke.93
+___copy_helper_block_.94
+___destroy_helper_block_.95
+-[TYShowAlertView dealloc]
+-[TYShowAlertView alertView]
+-[TYShowAlertView setAlertView:]
+-[TYShowAlertView backgroundView]
+-[TYShowAlertView backgoundTapDismissEnable]
+-[TYShowAlertView alertViewOriginY]
+-[TYShowAlertView setAlertViewOriginY:]
+-[TYShowAlertView alertViewEdging]
+-[TYShowAlertView setAlertViewEdging:]
+-[TYShowAlertView singleTap]
+-[TYShowAlertView setSingleTap:]
+-[TYShowAlertView .cxx_destruct]
+_OBJC_IVAR_$_TYShowAlertView._backgoundTapDismissEnable
+_OBJC_IVAR_$_TYShowAlertView._alertViewEdging
+_OBJC_IVAR_$_TYShowAlertView._alertView
+_OBJC_IVAR_$_TYShowAlertView._backgroundView
+_OBJC_IVAR_$_TYShowAlertView._singleTap
+_OBJC_IVAR_$_TYShowAlertView._alertViewOriginY
+___block_descriptor_tmp.92
+___block_descriptor_tmp.97
+/Users/yxj/Desktop/MyPublicProject/TYAlertController/TYAlertControllerDemo/TYAlertController/TYShowAlertView.m
+/Users/yxj/Desktop/MyPublicProject/TYAlertController/TYAlertControllerDemo/TYAlertController/TYShowAlertView.h
+__23-[TYShowAlertView hide]_block_invoke.93
+__23-[TYShowAlertView hide]_block_invoke
+__23-[TYShowAlertView show]_block_invoke
+-[TYAlertController(BlurEffects) setBlurEffectWithView:]
+-[TYAlertController(BlurEffects) setBlurEffectWithView:style:]
+___62-[TYAlertController(BlurEffects) setBlurEffectWithView:style:]_block_invoke
+___62-[TYAlertController(BlurEffects) setBlurEffectWithView:style:]_block_invoke_2
+___copy_helper_block_.12
+___destroy_helper_block_.13
+-[TYAlertController(BlurEffects) setBlurEffectWithView:effectTintColor:]
+___72-[TYAlertController(BlurEffects) setBlurEffectWithView:effectTintColor:]_block_invoke
+___72-[TYAlertController(BlurEffects) setBlurEffectWithView:effectTintColor:]_block_invoke_2
+___copy_helper_block_.17
+___destroy_helper_block_.18
+___copy_helper_block_.20
+___destroy_helper_block_.21
+-[TYAlertController(BlurEffects) blurImageWithSnapshotImage:style:]
+___block_descriptor_tmp.14
+___block_descriptor_tmp.19
+___block_descriptor_tmp.22
+/Users/yxj/Desktop/MyPublicProject/TYAlertController/TYAlertControllerDemo/Blur Effects/TYAlertController+BlurEffects.m
+__72-[TYAlertController(BlurEffects) setBlurEffectWithView:effectTintColor:]_block_invoke_2
+__72-[TYAlertController(BlurEffects) setBlurEffectWithView:effectTintColor:]_block_invoke
+__62-[TYAlertController(BlurEffects) setBlurEffectWithView:style:]_block_invoke_2
+__62-[TYAlertController(BlurEffects) setBlurEffectWithView:style:]_block_invoke
+-[UIImage(ImageEffects) applyLightEffect]
+-[UIImage(ImageEffects) applyExtraLightEffect]
+-[UIImage(ImageEffects) applyDarkEffect]
+-[UIImage(ImageEffects) applyTintEffectWithColor:]
+-[UIImage(ImageEffects) applyBlurWithRadius:tintColor:saturationDeltaFactor:maskImage:]
++[UIImage(SnapshotImage) snapshotImageWithView:]
+/Users/yxj/Desktop/MyPublicProject/TYAlertController/TYAlertControllerDemo/Blur Effects/UIImage+ImageEffects.m
+/Users/yxj/Library/Developer/Xcode/DerivedData/TYAlertControllerDemo-aohprzzfndlbjvgmecdfyozfcjqb/Build/Intermediates/TYAlertControllerDemo.build/Release-iphoneos/TYAlertController_iOS.build/DerivedSources/TYAlertController_iOS_vers.c
